@@ -7,12 +7,15 @@ gem 'launchy'
 
 group :development do
   gem "letter_opener", :git => "git://github.com/ryanb/letter_opener.git", :branch => "master"
+  gem 'sqlite3'
 end
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+group :production do
+  gem 'pg'
+end
 
 
 # Gems used only for assets and not required

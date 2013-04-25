@@ -1,7 +1,7 @@
 class UserMailer < ActionMailer::Base
-  default from: "<your_email>"
+  default from: "email@example.com"
   
   def empty_mail
-    mail to: "<any_email>"
+    mail to: "eytanfb@gmail.com"
   end
 end

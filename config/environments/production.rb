@@ -55,8 +55,8 @@ SendEmail::Application.configure do
   config.action_mailer.smtp_settings = {
     :address              => "smtp.gmail.com",
     :port                 => 587,
-    :user_name            => "eytanfb@gmail.com",
-    :password             => "5322974710Ea",
+    :user_name            => "<username>",
+    :password             => "<password>",
     :authentication       => "plain",
     :enable_starttls_auto => true
   }

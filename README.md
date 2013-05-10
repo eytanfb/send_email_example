@@ -1,5 +1,5 @@
-send_email
-==========
+send_email_example
+==================
 
 This is a sample app I developed to see how mailing worked.
 
